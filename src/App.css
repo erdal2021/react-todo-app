@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+input {
+  margin-bottom: 10px; 
+}
+
+/* Primary button */
+.primary-button {
+  background-color: #007e00;
+  color: #ffffff;
+  /* Add any other styles you want for your primary button */
+}
+
+/* Secondary button */
+.secondary-button {
+  background-color: #2ecc71;
+  color: #ffffff;
+  /* Add any other styles you want for your secondary button */
+}
+
+/* Danger button */
+.danger-button {
+  background-color: #e74c3c;
+  color: #ffffff;
+  /* Add any other styles you want for your danger button */
 }
